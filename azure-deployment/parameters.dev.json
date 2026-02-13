@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environment": { "value": "dev" },
+    "location": { "value": "eastus" },
+    "appName": { "value": "totalenergies-flotilla" },
+    "jwtSecret": {
+      "value": "f2c70b51aa56146517bd04c440922d3de3bb7eae0ecc9695cb62ad29adf5e5c9"
+    },
+    "jwtRefreshSecret": {
+      "value": "a22e81f9be135eea1eda510a16aacc2098489343ec79a534b9cce722b1904e42"
+    },
+    "appServicePlanSku": { "value": "B1" }
+  }
+}
